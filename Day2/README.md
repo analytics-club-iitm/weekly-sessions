@@ -12,6 +12,9 @@ Links to the Notebooks:
 
 Some slides as well for your reference - [link](https://docs.google.com/presentation/d/1y_MTE5L5KadyUUbqTyrbCkzLhygpnd0mJaCgYLiI9uE/edit#slide=id.g181b637894_1_117)
 
+------
+
+## Setting up Git on Linux and Windows [link](../setup/git_setup.md)
 
 ## Tasks for the day:
 
