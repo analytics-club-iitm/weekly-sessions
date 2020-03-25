@@ -11,6 +11,8 @@ Daily sessions for the students to get started with Data Science.
 
 ------
 
+## Setting up Git on Linux and Windows. [link](setup/git_setup.md)
+
 ## Note:
 For the case of these tasks I suggest everyone to please **fork this repository** to your personal GitHub page and create a python file on the corresponding day to solve the corresponding tasks for that day. Once done, please add the files on to your forked repository and make a pull request. 
 
