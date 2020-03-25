@@ -34,3 +34,7 @@ All you need to do is :
 ```sudo apt-get install git```
 
 And if you have run the script on the repo you don't need to do this as well and git would have already been installed.
+
+But you still need to setup your git credentials using the commands mentioned above.
+
+## For a quick understanding of Git and its command line usage check out [link](GIT-what_it_is.md)

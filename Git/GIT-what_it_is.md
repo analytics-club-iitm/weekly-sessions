@@ -76,4 +76,4 @@ https://github.com/MukundVarmaT/Git--Notes/blob/master/git-notes.md
 
 Also have a look at these amazing tutorials - https://www.youtube.com/watch?v=uR6G2v_WsRA
 
-## Please checkout the [link](submit_task.md) for an illustration as to how to use git to submit a task. 
+## Please check out the [link](submit_task.md) for an illustration as to how to use git to submit a task. 

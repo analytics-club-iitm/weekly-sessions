@@ -10,8 +10,14 @@ Daily sessions for the students to get started with Data Science.
 **Guys this repo is going to be constantly updated everyday with new content. We will also be having daily excercises for everyone to work on. So please make sure to check it out.**
 
 ------
+## GIT Setup and references
 
-## Setting up Git on Linux and Windows. [link](setup/git_setup.md)
+- Setting up Git on Linux and Windows [link](../Git/git_setup.md)
+- Git command line tutorial [link](../Git/GIT-what_it_is.md)
+- Some more references and videos [whole list of commands](https://github.com/MukundVarmaT/Git--Notes) [videos](https://www.youtube.com/watch?v=uR6G2v_WsRA)
+- Illustration showing how to submit a task [link](../Git/submit_task.md)
+
+------
 
 ## Note:
 For the case of these tasks I suggest everyone to please **fork this repository** to your personal GitHub page and create a python file on the corresponding day to solve the corresponding tasks for that day. Once done, please add the files on to your forked repository and make a pull request. 
