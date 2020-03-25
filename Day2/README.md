@@ -10,6 +10,8 @@ Links to the Notebooks:
 - [Notebook 2](DAY2%20-%20Notebook2.ipynb) - Memory allocation in Python.
 
 
+Some slides as well for your reference - [link](https://docs.google.com/presentation/d/1y_MTE5L5KadyUUbqTyrbCkzLhygpnd0mJaCgYLiI9uE/edit#slide=id.g181b637894_1_117)
+
 
 ## Tasks for the day:
 
