@@ -1,6 +1,6 @@
 def fibonacci(n):
     if n < 0:
-        raise ValueError("Negative arguments not implemented")
+        print("please enter positive values")
     return _fib(n)[0]
 
 
