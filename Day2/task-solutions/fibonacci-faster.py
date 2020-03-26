@@ -1,3 +1,4 @@
+## fast doubling method
 def fibonacci(n):
     if n < 0:
         raise ValueError("Negative arguments not implemented")
@@ -17,6 +18,7 @@ def _fib(n):
         else:
             return (d, c + d)
 
+## recursive method
 def fib(n):
     a = 1
     b = 1
@@ -27,6 +29,8 @@ def fib(n):
         a = b
         b = c
     return b
+
+## benchmarking between recurisive method and fast doubling.
 
 import time
 import matplotlib.pyplot as plt
