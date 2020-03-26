@@ -12,6 +12,15 @@ Links to the Notebooks:
 
 Some slides as well for your reference - [link](https://docs.google.com/presentation/d/1y_MTE5L5KadyUUbqTyrbCkzLhygpnd0mJaCgYLiI9uE/edit#slide=id.g181b637894_1_117)
 
+------
+## GIT Setup and references
+
+- Setting up Git on Linux and Windows [link](../Git/git_setup.md)
+- Git command line tutorial [link](../Git/GIT-what_it_is.md)
+- Some references and videos [whole list of commands](https://github.com/MukundVarmaT/Git--Notes), [videos](https://www.youtube.com/watch?v=uR6G2v_WsRA), [documentation](https://git-scm.com/book/en/v2)
+- Illustration showing how to submit a task [link](../Git/submit_task.md)
+
+------
 
 ## Tasks for the day:
 
@@ -53,6 +62,7 @@ Output:
 **Note: There is a library in python to do this as well. We expect you to try both methods and come up with a solution by defining a function on your own as well as identify the function**
 
 
+**Solutions have been updated [link](task-solutions/)**
 
 ------
 
