@@ -21,3 +21,5 @@ I have benchmarked the results of calculating the nth Fibonacci number using bot
 
 ![results](images/fibonacci-faster.png)
 
+Thanks to [@NishantPrabhu](https://github.com/NishantPrabhu) for his detailed notebooks.
+
