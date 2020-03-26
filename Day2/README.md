@@ -62,7 +62,7 @@ Output:
 **Note: There is a library in python to do this as well. We expect you to try both methods and come up with a solution by defining a function on your own as well as identify the function**
 
 
-Solutions have been updated [solutions](task-solutions/)
+**Solutions have been updated [link](task-solutions/)**
 
 ------
 
