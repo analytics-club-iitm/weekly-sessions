@@ -5,6 +5,7 @@ Daily sessions for the students to get started with Data Science.
 - [Day 1](./Day1) - Getting started ( Basic setup and What is Python )
 - [Day 2](./Day2) - Introduction to Python and How Python allocates memory.
 - [Day 3](./Day3) - Numpy and Matplotlib + bonus ( some detailed visualisation )
+- [Day 4](./Day4) - Pandas
 
 ------
 
