@@ -6,6 +6,10 @@ For Task 2 refer [notebook](Day2_Permutations.ipynb)
 
 In case of Task 1 the calculation of Fibonacci numbers as per the notebook is done by adding the last and the second last element. There are a lot of other advanced algorithms to do this faster.
 
+**Correction:** The fast doubling method is faster than the recursive method to compute the nth fibonacci number but it is going to be slower when computing an entire series.[link to issue](https://github.com/analytics-club-iitm/Daily-Sessions/pull/3#issuecomment-604295058) 
+
+References to the fast doubling method : [link1](https://chunminchang.github.io/blog/post/calculating-fibonacci-numbers-by-fast-doubling) [link2](https://funloop.org/post/2017-04-14-computing-fibonacci-numbers.html)
+
 **Matrix exponentiation method** :
 
 ![matrix](images/matrix.png)
