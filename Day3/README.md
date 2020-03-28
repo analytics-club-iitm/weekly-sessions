@@ -38,3 +38,4 @@ I suggest you guys to spend enough time on these topics and try to complete the 
 ### Also it would be great if you could all post your output videos and code as a pull request as then we can get some really cool and different patterns.
 
 
+Solutions have been uploaded [link](./task-solutions/)
