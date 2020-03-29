@@ -83,6 +83,106 @@ The ```xrange()``` function in python uses a generator to create a huge list.
 total = sum(xrange(2000000000)) 
 ```
 
+## Loops in Python - Comparison and Performance.
+
+So lets try to compare the speed performance in adding two lists element wise.
+
+Creating a list of 100 random integers and creating x and y of size 1000 from them.
+```
+# creating a list of 100 integers
+r = [random.randrange(100) for _ in range(100000)]
+
+# creating x and y of length 1000 randomly sampled from them.
+n = 1000
+x, y = random.sample(r, n), random.sample(r, n)
+```
+
+**Using while loops**: ```%%timeit``` runs the same code multiple times and benchmarks it.
+```
+%%timeit
+i, z = 0, []
+while i < n:
+    z.append(x[i] + y[i])
+    i += 1
+
+-------
+Output 
+10000 loops, best of 3: 117 µs per loop
+```
+
+**Using for loops:**
+
+```
+%%timeit
+z = []
+for i in range(n):
+    z.append(x[i] + y[i])
+
+-------
+Output 
+10000 loops, best of 3: 86.2 µs per loop
+```
+
+**Using comprehensions:**
+
+```
+%%timeit
+z = [x[i] + y[i] for i in range(n)]
+
+-------
+Output 
+10000 loops, best of 3: 61.7 µs per loop
+```
+
+**Using NumPy arrays:** :) obiviously gonna be faster but simply
+
+```
+x_arr = np.array(x)
+y_arr = np.array(y)
+
+%%timeit
+z = x_arr + y_arr
+
+-------
+Output 
+1000000 loops, best of 3: 784 ns per loop
+```
+
+### So what do we see:
+
+**The for loops are faster than while loops by almost 1.4 times.
+
+The comprehension methods are faster than for loops by almost 1.4 times again.
+
+The numpy array method is almost 80 times faster than the comprehension method.**
+
+### Lets do it once more using nested loops:
+
+Once again we create matrices of size 100x1000 as x and y and we try to add them element wise.
+
+You can check all the code in the notebook [link](benchmark.ipynb)
+
+**Using while loops:**
+
+100 loops, best of 3: 13.5 ms per loop
+
+**Using for loops:**
+
+100 loops, best of 3: 10.6 ms per loop
+
+**Using comprehensions:**
+
+100 loops, best of 3: 8.13 ms per loop
+
+**Using NumPy matrices:**
+
+10000 loops, best of 3: 46 µs per loop
+
+**So once again the same set of speed differences among while loops, for loops and comprehensions. The matrix method is almost 200 times faster than all of them.**
+
+### So what does this tell you always try to vectorise your code whenever possible to make it faster.
+
+
 ## Memory allocation in Python:
 
 In case you haven't read this [link](../Day2/DAY2%20-%20Notebook2.ipynb)
