@@ -150,11 +150,11 @@ Output
 
 ### So what do we see:
 
-**The for loops are faster than while loops by almost 1.4 times.
+**The for loops are faster than while loops by almost 1.4 times.**
 
-The comprehension methods are faster than for loops by almost 1.4 times again.
+**The comprehension methods are faster than for loops by almost 1.4 times again.**
 
-The numpy array method is almost 80 times faster than the comprehension method.**
+**The numpy array method is almost 80 times faster than the comprehension method.**
 
 ### Lets do it once more using nested loops:
 
