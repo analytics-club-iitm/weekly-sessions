@@ -15,6 +15,6 @@ All of you can work individually or in teams, we dont have any issues with that.
 
 **We request everyone to come up with any number of visual insights - like graphs and provide a suitable inference and use case for the same. There is no need to come up with Predictive models or analysis but you can do the same if you are interested as well.** 
 
-Everyone needs to submit their insights in a **PDF form and also submit a jupyter notebook** for the same with the relevant code as a **pull request** which will later be compiled together and shared with everyone once the challenge ends. **Mention the name of the PDF file as the members of the team.**
+Everyone needs to submit their insights in a **PDF form and also submit a jupyter notebook** for the same with the relevant code as a **zip file on this [drive link](https://drive.google.com/drive/folders/1ISFHKYJKXuJovia98XwRASQcTsxHis8d?usp=sharing)** which will later be compiled together and shared with everyone once the challenge ends. **Mention the name of the zip file as the members of the team.**
 
 Also, I wanted to know if you guys would like a session after the challenge where you can share your insights and I can share mine as well. Please do fill this poll to share your opinion. [link](https://forms.gle/i49dbDvE5nJjyCi56)
