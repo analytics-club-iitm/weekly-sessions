@@ -53,7 +53,7 @@ So now lets revisit the buzz words we started with. We have identified what most
 
 Lets continue with the remaining set of words.
 
-## How is pattern recognition related what we saw so far.
+## How is pattern recognition related to what we saw so far.
 
 *The field of pattern recognition is concerned with the automatic discovery of regularities in data using computer algorithms and with these regularities to take actions such as classifying data in different categories.*
 
@@ -83,9 +83,9 @@ So we have data and want to predict some behavior based on the data given to us.
 
 So I would prefer to use the term data science whenever I think of numerical data (like tables, customer info, numerical info, etc) rather than images, or text, etc.
 
-Now whether we do NLP or Computer Vision we require data and we are performing some kind of study using this data so does that mean we can still refer to them as data science. Well yes but if you are working on NLP why use Data science when you can already be specific by saying NLP.
+**Now whether we do NLP or Computer Vision we require data and we are performing some kind of study using this data so does that mean we can still refer to them as data science. Well yes but if you are working on NLP why use Data science when you can already be specific by saying NLP.**
 
-I hope this content gave you some insights regarding whats what. Now lets dive into some Machine Learning concepts and understand some terms commonly used in Machine Learning [link](PART2.md)
+**I hope this content gave you some insights regarding whats what. Now lets dive into some Machine Learning concepts and understand some terms commonly used in Machine Learning [link](PART2.md)**
 
 
 
