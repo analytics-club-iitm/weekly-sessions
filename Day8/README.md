@@ -11,4 +11,5 @@ Implement a simple multivariate Linear Regression using Numpy. In the example we
 
 The Dataset contains 4 features and the corresponding output. Implement a simple Linear Regresion utilising all these 4 features by associating a corresponding variable for each to map them to the output variables.
 
-
+# Solution
+Implementing from scratch [link](task-solutions.ipynb)

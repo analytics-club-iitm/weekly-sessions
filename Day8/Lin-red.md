@@ -79,7 +79,11 @@ As the person moves closer and closer to the minima the slope would decrease and
 
 ## The Gradient descent algorithm:
 
+<<<<<<< HEAD
+![grad](data/grad-des.jpeg)
+=======
 ![grad](data/image.png)
+>>>>>>> f287100b0bc54c0b9efa1ea925d815efbdbf01dd
 
 **NOTE: We need to make sure that the updation of m and c happen simultaneously and not one after the other.**
 
