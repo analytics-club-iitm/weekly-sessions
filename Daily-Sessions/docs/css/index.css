@@ -1,0 +1,221 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Code+Pro:400,600);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+*:not(a):not(a *) {
+  cursor: default;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #101214;
+  font-size: 18px;
+  -webkit-text-size-adjust: 100%;
+  color: #7A7C80;
+  min-height: 100%;
+}
+
+h1, h2 {
+  font-weight: normal;
+  font-size: 25px;
+  color: white;
+}
+
+.full-size {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#page {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -280px;
+  height: 560px;
+}
+
+@media only screen and (max-height: 580px),
+       only screen and (max-width: 578px) {
+  #page {
+    top: 14px;
+    margin-top: 0;
+  }
+}
+
+header {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 58%;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#header-content {
+  text-align: center;
+}
+
+#header-logo {
+  text-align: center;
+}
+
+#header-content #logo {
+  margin-bottom: 10px;
+}
+
+#header-content p {
+  padding-top: 2px;
+}
+
+#contact {
+  padding-top: 12px;
+}
+
+#contact a {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#contact a,
+#contact a svg {
+  width: 25px;
+  height: 19px;
+  cursor: pointer;
+}
+
+#contact a svg path {
+  fill: #7A7C80;
+}
+#contact a:hover svg path {
+  fill: #adb0b6;
+}
+
+#content {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  height: 30px;
+}
+
+section ul {
+  line-height: 22px;
+  list-style: none;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+section ul a {
+  color: #7A7C80;
+  text-decoration: none;
+}
+section ul a:hover {
+  color: #adb0b6;
+}
+
+a.more {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a.more svg {
+  width:  6px;
+  height: 10px;
+  margin-left: 7px;
+}
+
+a.more {
+  color: #B0B1B3;
+}
+a.more .arrow {
+  fill: #B0B1B3;
+}
+a.more:hover {
+  color: #adb0b6;
+}
+a.more:hover .arrow {
+  fill: #adb0b6;
+}
+
+#page-stripes {
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 578px) {
+  header {
+    position: static;
+    top: 10px;
+    padding-bottom: 16px;
+    margin: 40px 24px 16px;
+    width: auto;
+  }
+  #header-content #logo {
+    top: -33px;
+  }
+
+  #header-content h1, #header-content p {
+    left: 24px;
+    margin-left: 0;
+  }
+  #contact {
+    left: 252px;
+    margin-left: 0;
+  }
+  #content {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    margin-left: 0;
+    width: auto;
+  }
+  section,
+  section#openSource,
+  section#work {
+    width: 100%;
+    float: left;
+    clear: both;
+  }
+}
+
+#intro {
+  background: #101214;
+  pointer-events: none;
+}
+
+#logo-container {
+  transform-origin: 50% 50%;
+  transform: scale(0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+#logo-container > svg {
+  width: 70vw;
+  height: 70vh;
+  max-width: 640px;
+  max-height: 536px;
+}
