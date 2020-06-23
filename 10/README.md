@@ -3,7 +3,7 @@
 Hey everyone, so today we will be trying to understand how Naive Bayes Classifier works and how to implement a simple Naive Bayes Classifier from scratch.
 
 
-- Implementing Gaussian Naive Bayes from scratch along with visualisations[link](./NaiveBayesIris.ipynb)
+- Implementing Gaussian Naive Bayes from scratch along with visualisations [link](./NaiveBayesIris.ipynb)
 - Explaination [link](./Naive-explained.md)
 
 ## Task 

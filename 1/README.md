@@ -7,7 +7,7 @@ We will start by setting up your laptops with python installed. Follow the instr
 - [Windows](./../setup/windows.md)
 - [Linux](./../setup/linux.md)
 
-In case you are running on a Kali Linux system check out [#1](https://github.com/analytics-club-iitm/Daily-Sessions/issues/1#issuecomment-603458212) 
+In case you are running on a Kali Linux system check out [#1](https://github.com/analytics-club-iitm/weekly-sessions/issues/1#issuecomment-603458212) 
 
 We have also included an Ubuntu installation [guide](../setup/ubuntu-install.md) if you guys want to have ubuntu along with windows in your system. 
 
