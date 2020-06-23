@@ -12,7 +12,7 @@ Daily sessions for the students to get started with Data Science.
 - [Linear regression and implementing one from scratch](./7/)
 - [Implementing Polynomial regression from scratch + Overfitting & Underfitting](./8/)
 - [Logistic regression and implementing one from scratch](./9/)
-
+- [Naive Bayes Classifier](./10/)
 
 ------
 
