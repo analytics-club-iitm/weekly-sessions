@@ -72,8 +72,8 @@ Generally, the remote corresponding to the online repository is referred by **or
 ```git merge <remote-name> <branch-name>``` - to merge the changes from last fetch to the local repository.
 
 ## For a detailed list of commands please refer to :
-https://github.com/MukundVarmaT/Git--Notes/blob/master/git-notes.md
+[A complete list of commands](https://github.com/MukundVarmaT/GIT-notes)
 
-Also have a look at these amazing tutorials - https://www.youtube.com/watch?v=uR6G2v_WsRA
+Also have a look at these amazing tutorials - [link](https://www.youtube.com/watch?v=uR6G2v_WsRA)
 
 ## Please check out the [link](submit_task.md) for an illustration as to how to use git to submit a task. 
