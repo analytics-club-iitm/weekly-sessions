@@ -1,6 +1,6 @@
-# Day 3 
+# Numpy and Matplotlib
 
-Hey Guys hope you were able to complete the tasks in Day 2, if you are facing some issues feel free to put it up on the issues tab.
+Hey Guys hope you were able to complete the tasks in the previous content, if you are facing some issues feel free to put it up on the issues tab.
 
 So today we will be looking at two very important libraries in Python - Numpy and Matplotlib.
 

@@ -1,11 +1,13 @@
-# Day 10
-Hey guys, today we will be learning about logistic regression.
+# Logistic regression and implementing one from scratch
+
+Hey guys, today we will be having a look at a simple algorithm for classification (i.e) Logistic regression. We will also be looking at how to implement one from scratch. 
 
 
-link to the content pdf: [link](logistic_regression_repo_content.pdf)
+Link to PDF: [link](logistic_regression_repo_content.pdf)
+
+Logistic regression from scratch: [link](Logistic_Regression_From_Scratch.ipynb)
 
 
-linke to a sample logistic regression code from scratch: [link](Logistic_Regression_From_Scratch.ipynb)
+## Task 
 
-
-Task: Create a visual to depict how the model is classifying the sample data during each iteration of training. Display the classified samples as green and the unclassified ones as red.
+Visualize how the model finds the line/decision boundary to differentiate between the two classes in a binary classification problem at every iteration. Display each class with a unique color. 

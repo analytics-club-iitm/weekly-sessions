@@ -1,4 +1,4 @@
-# Day 7
+# Introduction to ML and jargon busting
 
 Hey guys, so today we will be starting with some basics of Machine Learning and understand what different terms mean. But before that lets also understand what are these different words which we hear often be it AI, ML, Data Science, Deep Learning. Now what do these exactly mean ? Understanding this will help you to better understand what your interests are.
 

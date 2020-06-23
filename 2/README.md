@@ -1,6 +1,6 @@
-# Day2
+# Introduction to Python
 
-Hey Guys! Welcome to Day-2 of the sessions. Today we will start working on Python-an introduction on some fundamental datatypes like lists, dictionaries, etc. We will also look into loops, functions and classes in Python. Finally we will also look on how Python allocates memory which an interesting topic which all of you must definitely check out.
+Hey Guys! Welcome to session 2. Today we will start working on Python-an introduction on some fundamental datatypes like lists, dictionaries, etc. We will also look into loops, functions and classes in Python. Finally we will also look on how Python allocates memory which an interesting topic which all of you must definitely check out.
 
 We will having today's sessions on Jupyter Notebooks. Hope you all didn't face any issues while setting up python. If you do, please do post your issues on the issues tab.
 

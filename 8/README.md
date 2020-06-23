@@ -1,4 +1,4 @@
-# Polynomial Regression
+# Implementing Polynomial regression from scratch + Overfitting & Underfitting
 
 Hey everyone, so today we will be trying to understand how Polynomial regression works and how to implement a simple Polynomial Regression from scratch.
 
