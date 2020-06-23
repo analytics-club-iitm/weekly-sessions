@@ -2,34 +2,34 @@
 
 Daily sessions for the students to get started with Data Science.
 
-- [Day 1](./Day1) - Getting started ( Basic setup and What is Python )
-- [Day 2](./Day2) - Introduction to Python and How Python allocates memory.
-- [Day 3](./Day3) - Numpy and Matplotlib + bonus ( some detailed visualisation )
-- [Day 4](./Day4) - Pandas
-- [Day 5+6](./Day5+Day6/) - Interesting stuff
-- [Visualization-challenge](./Visualization-challenge/) - Visualization Challenge
-- [Day 7](./Day7/) - An Introduction to ML and What are the different buzz words we hear about every day
-- [Day 8](./Day8/) - Linear regression and implementing one from scratch
-- [Day 9](./Day9/) - Implementing Polynomial regression from scratch + Overfitting & Underfitting
-- [Day 10](./Day_10/) - Logistic regression and implementing one from scratch
+- [Getting started ( Basic setup and What is Python )](./1/)
+- [Introduction to Python and How Python allocates memory.](./2/)
+- [Numpy and Matplotlib + bonus ( some detailed visualisation )](./3/)
+- [Pandas](./4/)
+- [Interesting stuff](./5/)
+- [Visualization Challenge](./Visualization-challenge/)
+- [An Introduction to ML and What are the different buzz words we hear about every day](./6/)
+- [Linear regression and implementing one from scratch](./7/)
+- [Implementing Polynomial regression from scratch + Overfitting & Underfitting](./8/)
+- [Logistic regression and implementing one from scratch](./9/)
 
 
 ------
 
-**Guys this repo is going to be constantly updated everyday with new content. We will also be having daily excercises for everyone to work on. So please make sure to check it out.**
+**Guys this repo is going to be constantly updated weekly with new content. We will also be having excercises for everyone to work on. So please make sure to check it out.**
 
 ------
 ## GIT Setup and references
 
-- Setting up Git on Linux and Windows [link](./Git/git_setup.md)
-- Git command line tutorial [link](./Git/GIT-what_it_is.md)
-- Some references and videos [whole list of commands](https://github.com/MukundVarmaT/Git--Notes), [videos](https://www.youtube.com/watch?v=uR6G2v_WsRA), [documentation](https://git-scm.com/book/en/v2)
-- Illustration showing how to submit a task [link](./Git/submit_task.md)
+- Setting up Git on Linux and Windows [link](./GIT/git_setup.md)
+- Git command line tutorial [link](./GIT/GIT-what_it_is.md)
+- Some references and videos [detailed tutorial](https://github.com/MukundVarmaT/GIT-notes), [videos](https://www.youtube.com/watch?v=uR6G2v_WsRA), [documentation](https://git-scm.com/book/en/v2)
+- Illustration showing how to submit a task [link](./GIT/submit_task.md)
 
 ------
 
 ## Note:
-For the case of these tasks I suggest everyone to please **fork this repository** to your personal GitHub page and create a python file on the corresponding day to solve the corresponding tasks for that day. Once done, please add the files on to your forked repository and make a pull request. 
+For the case of these tasks I suggest everyone to please **fork this repository** to your personal GitHub page and create a python file on the corresponding folder to solve the corresponding tasks for that day. Once done, please add the files on to your forked repository and make a pull request. 
 
 We will be going through all your codes and we will be checking them out. Once everyone puts their codes, we will be choosing the best one and **merging the code to the main repository here**.
 
