@@ -1,6 +1,6 @@
-# Analytics-daily-sessions
+# Analytics-weekly-sessions
 
-Daily sessions for the students to get started with Data Science.
+Weekly sessions for anyone to get started with Data Science.
 
 - [Getting started ( Basic setup and What is Python )](./1/)
 - [Introduction to Python and How Python allocates memory.](./2/)
