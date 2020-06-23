@@ -1,0 +1,42 @@
+# Open File Explorer
+"run-one xdg-open ~"
+    Mod2+Mod4 + e
+
+# Screenshot with Shutter, which will be saved in /tmp
+"shutter -s -o '/tmp/%y-%m-%d_$w_$h.png' -c -e"
+    Control+Shift+Alt + p
+
+# Maximize window
+"wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz"
+    Mod2+Mod4 + Up
+
+# Tile window
+"wmctrl -r :ACTIVE: -b remove,maximized_vert,maximized_horz && xdotool windowsize $(xdotool getwindowfocus) 50% 100% && xdotool windowmove $(xdotool getwindowfocus) 0 y"
+    Mod2+Mod4 + Left
+
+"wmctrl -r :ACTIVE: -b remove,maximized_vert,maximized_horz && xdotool windowsize $(xdotool getwindowfocus) 50% 100% && xdotool windowmove $(xdotool getwindowfocus) 9999 y"
+    Mod2+Mod4 + Right
+
+# Open KeePass2
+"mono /usr/lib/keepass2/KeePass.exe"
+    Control+Alt + k
+
+# KeePass2 Auto-type
+"mono /usr/lib/keepass2/KeePass.exe --auto-type"
+    Control+Alt + j
+
+# -- Move to Right Workspace --
+"xdotool set_desktop $(expr $(expr $(xdotool get_desktop) + 1) % $(xdotool get_num_desktops))"
+    Control+Mod2+Mod4 + Right
+
+# -- Move to Left Workspace --
+"xdotool set_desktop $(expr $(expr $(xdotool get_desktop) + $(expr $(xdotool get_num_desktops) - 1)) % $(xdotool get_num_desktops))"
+    Control+Mod2+Mod4 + Left
+
+# Show Desktop using Windows shortcut if on Ubuntu Mate/...
+#"xdotool key --clearmodifiers ctrl+alt+d"
+#    Mod2+Mod4+d
+
+# Screen magnifier
+"vmg &"
+    Mod2+Mod4+KP_Add
