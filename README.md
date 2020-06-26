@@ -13,7 +13,7 @@ Weekly sessions for anyone to get started with Data Science.
 - [Implementing Polynomial regression from scratch + Overfitting & Underfitting](./8/)
 - [Logistic regression and implementing one from scratch](./9/)
 - [Naive Bayes Classifier](./10/)
-
+- [Linear Discriminant Analysis](./11/)
 ------
 
 **Guys this repo is going to be constantly updated weekly with new content. We will also be having excercises for everyone to work on. So please make sure to check it out.**
