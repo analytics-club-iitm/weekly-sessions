@@ -256,9 +256,9 @@ proportion of deaths in a village is greater than in the city.*
 -   >And that's our covariance matrix.
 
 -   >Now comes the fun part. Find the
-    > [**[eigenvectors]**](https://mathworld.wolfram.com/Eigenvector.html#:~:text=Eigenvectors%20are%20a%20special%20set,144%29.)
+    > [**eigenvectors**](https://mathworld.wolfram.com/Eigenvector.html#:~:text=Eigenvectors%20are%20a%20special%20set,144%29.)
     > and
-    > [**[eigenvalues]**](https://mathworld.wolfram.com/Eigenvalue.html#:~:text=Eigenvalue,144%29.)
+    > [**eigenvalues**](https://mathworld.wolfram.com/Eigenvalue.html#:~:text=Eigenvalue,144%29.)
     > of the **covariance matrix**. There are many libraries that can
     > help you with this step. Numpy is one such library (but be careful
     > about the rounding off errors).
@@ -278,14 +278,14 @@ proportion of deaths in a village is greater than in the city.*
     > and accordingly shift the eigenvectors in *Z* to make *Z\*.*
 
 -   >We can do this because our *Cov* matrix is **symmetric** and
-    > [**[positive
-    > semidefinite]**](https://mathworld.wolfram.com/PositiveSemidefiniteMatrix.html)
-    > since it is of the form [***[M\^T.M]***](about:blank).
+    > [**positive
+    > semidefinite**](https://mathworld.wolfram.com/PositiveSemidefiniteMatrix.html)
+    > since it is of the form ***M^T.M***.
     > The only important aspect of a positive semidefinite matrix is
     > that its eigenvalues are non-negative, otherwise we needn\'t
     > bother too much with these properties. Though, if you\'re
     > interested you can find more at this
-    > [[link]](https://mathworld.wolfram.com/PositiveSemidefiniteMatrix.html).
+    > [link](https://mathworld.wolfram.com/PositiveSemidefiniteMatrix.html).
 
 -   >Was it necessary to write the eigendecomposition? Nope. It was just
     > so that I could sound cool. The important step is to convert the
@@ -305,8 +305,8 @@ proportion of deaths in a village is greater than in the city.*
      your data in 2D then select the first two features from
      *Data\_new*.
 
-2.  Calculate the [[proportion of variance
-     explained]](https://stats.stackexchange.com/questions/22569/pca-and-proportion-of-variance-explained).
+2.  Calculate the [proportion of variance
+     explained](https://stats.stackexchange.com/questions/22569/pca-and-proportion-of-variance-explained).
      I.e, divide each eigenvalue by the sum of the eigenvalues to find
      the proportion of variance. Pick a threshold, and add features
      until you hit that threshold. (For example, if you want to explain
@@ -314,13 +314,13 @@ proportion of deaths in a village is greater than in the city.*
      features with the largest explained proportion of variance until
      your proportion of variance explained hits or exceeds 80%.)
 
-3.  Calculate the [[proportion of variance
-     explained]](https://stats.stackexchange.com/questions/22569/pca-and-proportion-of-variance-explained)
+3.  Calculate the [proportion of variance
+     explained](https://stats.stackexchange.com/questions/22569/pca-and-proportion-of-variance-explained)
      by each feature, sort features by the proportion of variance
      explained and plot the cumulative proportion of variance explained
      as you keep more features. (The plot shown below is called a
-     [[scree
-     plot]](http://ba-finance-2013.blogspot.com/2012/09/scree-plots-interpretation-and.html))
+     [scree
+     plot](http://ba-finance-2013.blogspot.com/2012/09/scree-plots-interpretation-and.html))
      One can pick how many features to include by identifying the point
      where adding a new feature has a significant drop in variance
      explained relative to the previous feature, and choosing features
@@ -373,9 +373,9 @@ characteristic of a given matrix.
 
 Eigenvectors of a matrix are those vectors which shift from the line
 they lie along when multiplied with that matrix but get scaled by the
-eigenvalue. For example, if \[1,2\] was the eigenvector of some matrix
+eigenvalue. For example, if [1,2] was the eigenvector of some matrix
 and -2 was the eigenvalue, then after multiplication, the vector would
-become \[-2,-4\]. It lies on the same line but was scaled by -2.
+become [-2,-4]. It lies on the same line but was scaled by -2.
 
 For further clarification, it is easier to think of matrices as
 transformations. Imagine a 2D vector-space (a 2D graph). Using standard
@@ -447,7 +447,7 @@ A few examples to highlight the use of eigenvector in data science:
 
 Take a transformation matrix where all points on a 2D plane are brought
 onto a line. (Which means our matrix is
-[[singular]](https://mathworld.wolfram.com/SingularMatrix.html),
+[singular](https://mathworld.wolfram.com/SingularMatrix.html),
 i.e, two columns are dependant.)
 
 ![](24.png)
@@ -457,9 +457,9 @@ Its eigenvectors and eigenvalues are as follows:
 ![](25.png)
 
 This transformation brings every point on the *xy* plane onto the line
-*x* = *y*, which is represented by the vector \[1,1\] and whose normal
-is \[1,-1\], which are our eigenvectors, and we can also see that the
-eigenvalues are \[2,0\] respectively. One way to look at the eigenvalues
+*x* = *y*, which is represented by the vector [1,1] and whose normal
+is [1,-1], which are our eigenvectors, and we can also see that the
+eigenvalues are [2,0] respectively. One way to look at the eigenvalues
 is that they attribute the importance of each direction given by the
 eigenvectors. All points on the line *x* = -y are brought to the origin
 and their information is lost and hence an eigenvalue of zero can be
@@ -501,7 +501,7 @@ points lie.
 
 **For example:**
 
--   Let\'s say all your points lie on the line: y = 3x
+-   Let's say all your points lie on the line: y = 3x
 
 -   Your shifted matrix will represent one column is 3 times the other.
 
@@ -518,12 +518,12 @@ points lie.
 
 ![](30.gif)
 
--   We get eigenvalues like these because our covariance matrix
+-   >We get eigenvalues like these because our covariance matrix
     > encapsulates the spatial orientation of our data. If you imagine
     > the columns of the covariance matrix as the axes, you can see that
     > one feature, i.e one axis is 3 times the other.
 
--   So deriving from the examples above, since the features are
+-   >So deriving from the examples above, since the features are
     > dependant, our eigenvector lies along the line y=3x
 
 <p>
@@ -534,7 +534,7 @@ the line</em>
 </p>
 
 
--   The plot below shows the eigenvectors of a randomly generated
+-   >The plot below shows the eigenvectors of a randomly generated
     > dataset, where the yellow vector is the one with the highest
     > eigenvalue. One can think of the yellow vector as the one being
     > closest to the line of best fit.
@@ -552,7 +552,7 @@ The picture below elaborates on the point.
 
 -   Let\'s reduce our randomly generated dataset to a single dimension.
 
--   Since the yellow vector had the highest eigenvalue (hence the
+-   >Since the yellow vector had the highest eigenvalue (hence the
     > highest proportion of variance explained. Take a look at the scree
     > plot). We shall drop the purple vector.
 
@@ -565,7 +565,7 @@ The picture below elaborates on the point.
 
 
 
--   Now we take a dot product of each point along with the yellow vector
+-   >Now we take a dot product of each point along with the yellow vector
     > and place them on the x-axis according to the value of the dot
     > product. The result is the graph below where the small points
     > represent the 1D representation of the data and the big points
@@ -573,7 +573,7 @@ The picture below elaborates on the point.
 
 ![](35.png)
 
--   To highlight the dot product: The yellow point which is almost
+-   >To highlight the dot product: The yellow point which is almost
     > perpendicular to the vector is close to the origin, while the
     > green and red points are acutely angled and hence lie in the
     > positive region, while the blue and the purple lie in the negative
