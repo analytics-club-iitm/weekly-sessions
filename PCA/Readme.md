@@ -33,9 +33,9 @@ I will be making my explanations more mathematical and intuitive.
 
 Let's say that you want to *model the COVID situation in India.* NOPE!
 I'm sure you're as done with the topic as I am and hence let\'s take a
-different approach. So we shall take a look at the [**[League of Legends
+different approach. So we shall take a look at the [**League of Legends
 Diamond Ranked Games (10
-min)]**](https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min)
+min)**](https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min)
 dataset on Kaggle, where we try to predict which team is going to win
 the match after observing the first 10 minutes of the match. *(go play
 the game if you haven\'t pl*e*ase).* Now, this dataset has 40 columns,
