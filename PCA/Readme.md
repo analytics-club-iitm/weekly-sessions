@@ -223,8 +223,8 @@ value(mean) of that feature</em>
 </p>
 
 
--   >So our [[covariance
-    > matrix]](https://en.wikipedia.org/wiki/Covariance_matrix#:~:text=In%20probability%20theory%20and%20statistics,of%20a%20given%20random%20vector.)
+-   >So our [covariance
+    > matrix](https://en.wikipedia.org/wiki/Covariance_matrix#:~:text=In%20probability%20theory%20and%20statistics,of%20a%20given%20random%20vector.)
     > would look like this:
 
 ![](6.png)
