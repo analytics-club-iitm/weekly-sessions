@@ -9,4 +9,5 @@ Link for the content is given below:
 - Task for the topic [link](./Decision_Tree_Task.ipynb)
 - Task Data [link](./task_data.csv)
 
-Task details have been given to you in the third link. Be sure to check it out!!
+Task:
+Using all the resources and the data given to you, make some kind of visual representing how the decision tree looks for the given task dataset. The Column that you need to predict here is the 'Survived' column.
