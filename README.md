@@ -15,6 +15,7 @@ Weekly sessions for anyone to get started with Data Science.
 - [Naive Bayes Classifier](./10/)
 - [Linear Discriminant Analysis](./11/)
 - [Principal Component Analysis](./12/)
+- [Decision Trees and their Ensembles](./13/)
 ------
 
 **Guys this repo is going to be constantly updated weekly with new content. We will also be having excercises for everyone to work on. So please make sure to check it out.**
