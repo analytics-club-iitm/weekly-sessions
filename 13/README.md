@@ -1,4 +1,4 @@
-## Decision Trees and their Ensembles
+# Decision Trees and their Ensembles
 
 Hey Everyone, today we will be learning about What Decision Trees are, how they work and how we can increase their performance by making an ensemble.
 
