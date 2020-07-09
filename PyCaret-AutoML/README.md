@@ -6,4 +6,5 @@ PyCaret is an open source, low-code Auto ML(end-to-end machine learning) library
 
 Link to notebook for a simple implementation demonstrating the usage of pycaret on the infamous housing prices dataset [link](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview). The train, test data along with a description in present in the [assets folder](./assets/)
 
-Contributed by [Aaftab](https://github.com/achillesposiedon)
+------
+**Contributed by [Aaftab](https://github.com/achillesposiedon)**
