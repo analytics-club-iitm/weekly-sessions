@@ -17,6 +17,10 @@ Weekly sessions for anyone to get started with Data Science.
 - [Principal Component Analysis](./12/)
 - [Decision Trees and their Ensembles](./13/)
 ------
+## Contributions from the Community
+- [Introduction to PyCaret-AutoML](./PyCaret-AutoML/)
+
+------
 
 **Guys this repo is going to be constantly updated weekly with new content. We will also be having excercises for everyone to work on. So please make sure to check it out.**
 
