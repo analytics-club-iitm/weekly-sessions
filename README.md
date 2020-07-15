@@ -16,6 +16,7 @@ Weekly sessions for anyone to get started with Data Science.
 - [Linear Discriminant Analysis](./11/)
 - [Principal Component Analysis](./12/)
 - [Decision Trees and their Ensembles](./13/)
+- [K Nearest Neighbours](./14/)
 ------
 ## Contributions from the Community
 - [Introduction to PyCaret-AutoML](./PyCaret-AutoML/)
