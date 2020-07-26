@@ -20,6 +20,7 @@ Weekly sessions for anyone to get started with Data Science.
 ------
 ## Contributions from the Community
 - [Introduction to PyCaret-AutoML](./PyCaret-AutoML/)
+- [Image Captioning](./Image%20Captioning/)
 
 ------
 
