@@ -22,6 +22,7 @@ Weekly sessions for anyone to get started with Data Science.
 ## Contributions from the Community
 - [Introduction to PyCaret-AutoML](./PyCaret-AutoML/)
 - [Image Captioning](./Image%20Captioning/)
+- [Face Generation using GANS](./Face%20Synthesis%20with%20GANs/Face%20synthesis%20with%20GANs.ipynb)
 
 ------
 
