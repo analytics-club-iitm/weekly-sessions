@@ -25,6 +25,12 @@ Weekly sessions for anyone to get started with Data Science.
 - [Face Generation using GANS](./Face%20Synthesis%20with%20GANs/Face%20synthesis%20with%20GANs.ipynb)
 - [Random Projection Nueral Networks](./RandomProjectionNeuralNetwork/RandomProjectionNeuralNetwork.ipynb)
 
+You can check out these personal blogs which are quite frequently updated as well.
+
+- [Mohammad Aaftab V](https://medium.com/@aaftabv3)
+- [Nishant Prabhu](https://nishantprabhu.github.io/)
+- [Vasudev Gupta](https://vasudevgupta7.github.io/)
+
 ------
 
 **Guys this repo is going to be constantly updated weekly with new content. We will also be having excercises for everyone to work on. So please make sure to check it out.**
