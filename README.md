@@ -25,7 +25,7 @@ Weekly sessions for anyone to get started with Data Science.
 - [Face Generation using GANS](./Face%20Synthesis%20with%20GANs/Face%20synthesis%20with%20GANs.ipynb)
 - [Random Projection Nueral Networks](./RandomProjectionNeuralNetwork/RandomProjectionNeuralNetwork.ipynb)
 
-You can check out these personal blogs which are quite frequently updated as well.
+**You can check out these personal blogs which are quite frequently updated as well.**
 
 - [Mohammad Aaftab V](https://medium.com/@aaftabv3)
 - [Nishant Prabhu](https://nishantprabhu.github.io/)
